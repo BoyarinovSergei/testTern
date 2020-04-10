@@ -21,7 +21,7 @@ public class TestMainPage extends BaseClass {
         driver.quit();
     }
 
-    @Test(description = "5 раз получить количество сообщений сравниваю их количество")
+    @Test(description = "5 раз получить количество сообщений и сравнить их количество")
     public void test1(){
 
         int array[] = new int[5];
